@@ -1,5 +1,7 @@
 .nav-link:hover{
     background-color: yellow;
+    border-radius: 20px;
+    border: 2px solid black;
 }
 *{
     font-family: montserrat;
@@ -18,10 +20,10 @@ body{
     bottom: 220px;
     z-index: 2;
 }
-.about-img{
+/* .about-img{
     height: 740px !important;
     box-shadow: 15px 15px 40px rgba(0,0,0,0.15);
-}
+} */
 
 
 .carousel-caption h5{
@@ -138,14 +140,14 @@ body{
     text-decoration: underline;
 }
 .about-img{
-    transition: 0.5s !important;
+    transition: 0.5s linear !important;
 }
-.about-img:hover{
+.about-img{
 
     height: 640px !important;
     width: 370px !important;
 }
 .btn:hover{
-    height: 50px;
-    width: 120px;
+  background-color: #fff;
+
 }
